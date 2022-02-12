@@ -1,13 +1,12 @@
-package org.intellidev.payday.managers;
+package ***
 
 import net.luckperms.api.model.group.Group;
 import net.luckperms.api.model.user.User;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.intellidev.payday.Payday;
-
 import java.io.File;
 import java.io.IOException;
 import java.util.UUID;
+//more imports
 
 public class ConfigManager {
 
@@ -33,7 +32,7 @@ public class ConfigManager {
         if(!(file.exists())){
             config = YamlConfiguration.loadConfiguration(file);
 
-            //heavy
+            //heavy load(bad practise dont copy)
             for(int i = 0; i < 10000; i++){
                 config.set("prefix." + i, "[" + i + "]");
             }
