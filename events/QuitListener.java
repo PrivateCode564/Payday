@@ -1,9 +1,9 @@
-package org.intellidev.payday.events;
+package ***
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerQuitEvent;
-import org.intellidev.payday.Payday;
+//more imports
 
 public class QuitListener implements Listener {
 
