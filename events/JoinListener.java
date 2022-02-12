@@ -1,9 +1,9 @@
-package org.intellidev.payday.events;
+package ***
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
-import org.intellidev.payday.Payday;
+//more events
 
 public class JoinListener implements Listener {
 
