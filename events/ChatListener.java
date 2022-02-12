@@ -1,10 +1,9 @@
-package org.intellidev.payday.events;
+package ***
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-import org.intellidev.payday.Payday;
-import org.intellidev.payday.utils.StringUtils;
+//more imports
 
 public class ChatListener implements Listener {
 
