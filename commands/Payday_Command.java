@@ -1,12 +1,10 @@
-package org.intellidev.payday.commands;
+package ***
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.intellidev.payday.DateFormatter;
-import org.intellidev.payday.Payday;
-import org.intellidev.payday.utils.StringUtils;
+//more imports
 
 import java.util.concurrent.TimeUnit;
 
@@ -17,7 +15,7 @@ public class Payday_Command implements CommandExecutor {
         this.payday = payday;
     }
 
-
+    //using bukkit's commandexecutor not custom one.
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
